@@ -12,7 +12,7 @@ Aplicacion comics prueba técnica Front - End Developer
 Para ver el programa en ejecución se deben seguir los siguientes pasos
 - Clonar el repositorio
 ```
-git clone 
+git clone https://github.com/ZEDONEOUS/comics_react_app.git
 ```
 - Abrir en un buscador web el archivo index.html que se encuentra en la ruta
 ```
@@ -27,7 +27,7 @@ Para ejecutar el programa desde el codigo fuente se deben tener instaladas las s
 Para ver el programa en ejecución se deben seguir los siguientes pasos
 - Clonar el repositorio
 ```
-git clone 
+git clone https://github.com/ZEDONEOUS/comics_react_app.git
 ```
 - Situarse en la carpeta principal del proyecto
 ```
