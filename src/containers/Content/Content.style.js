@@ -7,6 +7,7 @@ export const Comic = styled(Row)`
     padding:2em 5em;
     display:block;
     margin:0 auto;
+    min-height:70vh;
 `;
 
 export const ComicTitle = styled.h1`
@@ -21,6 +22,7 @@ export const ComicImage = styled.img`
     display:block;
     margin:0 auto;
     max-width:100%;
+    justify-content:center;
 `;
 
 export const NewComic = styled.div`
@@ -36,5 +38,10 @@ export const NewComic = styled.div`
         padding:15px;
         font-size:1.2em;
         border:1px solid #000;
+        transition: transform 300ms ease-in-out;
+    }
+
+    & > button:hover{
+        transform: scale(1.1);
     }
 `;

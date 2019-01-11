@@ -49,7 +49,6 @@ class Content extends Component{
         });
     }
 
-
     render(){
         return(
             <div>
@@ -58,8 +57,7 @@ class Content extends Component{
                         <Col md={12}>
                             <Row>
                                 <Col md={6}>
-                                    <ComicImage src={ this.state.comic_data.img }>
-                                    </ComicImage>
+                                    <ComicImage src={ this.state.comic_data.img }></ComicImage>
                                 </Col>
                                 <Col md={6}>
                                     <Row>
